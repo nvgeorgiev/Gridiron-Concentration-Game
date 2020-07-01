@@ -92,9 +92,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');
-      alert('You have clicked the same image!');
+      setTimeout(100);
     } else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match!');
+      setTimeout(100);
       cards[optionOneId].setAttribute('src', 'images/white.png');
       cards[optionTwoId].setAttribute('src', 'images/white.png');
       cards[optionOneId].removeEventListener('click', flipCard);
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');
-      alert('Sorry, try again');
+      setTimeout(100);
     }
     cardsChosen = [];
     cardsChosenId = [];
