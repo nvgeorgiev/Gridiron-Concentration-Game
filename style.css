@@ -1,0 +1,19 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #545566;
+  background-color: #f9f9f7;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 700px;
+}
+
+img {
+  height: 110px;
+  width: 150px;
+}
