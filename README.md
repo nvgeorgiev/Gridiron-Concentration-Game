@@ -9,3 +9,6 @@ Concentration, also known as "Match Match", "Match Up", "Memory", "Pelmanism", "
 - These cards then disappear.
 - If the next card you flip does not match the cards flip back.
 - The game continues until you match all the cards on the board.
+
+## Demo
+![Gridiron Concentration Game Demo](/video-demo/project-video-demo.gif)
